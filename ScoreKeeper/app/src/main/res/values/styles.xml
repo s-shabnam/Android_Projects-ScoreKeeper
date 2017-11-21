@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#6d4c41</item>
+        <!-- Primary dark theme color of the app (sets color of status bar) -->
+        <item name="colorPrimaryDark">#40241a</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#9c786c</item>
+        <item name="android:textColorPrimary">#FFFDE7</item>
+
+        <!--item name="textAppearance">StyleFontTextView</item-->
+    </style>
+
+    <style name="StyleFontTextView">
+        <item name="android:textColor">#FFFDE7</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">24dp</item>
+    </style>
+
+    <style name="StyleFontButton">
+        <item name="android:textColor">#FFFDE7</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFDE7</item>
+    </style>
+</resources>
